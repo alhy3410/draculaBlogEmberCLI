@@ -10,6 +10,7 @@ Router.map(function() {
   this.resource('posts', function() {
     this.resource('post', { path: ':post_id'});
   });
+  this.resource('new-post');
 });
 
 export default Router;
